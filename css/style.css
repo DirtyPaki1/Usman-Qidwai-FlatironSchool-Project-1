@@ -1,3 +1,44 @@
 *{
     background-color: aquamarine;
 }
+h1{
+    color: blue;
+    align-items: left;
+   line-height: 12px;
+   padding: 10px;
+   vertical-align: middle;
+
+
+    
+}
+
+p{
+    font-size: large;
+    font-style: italic;
+    font-weight: bolder;
+    height: fit-content;
+ 
+    
+}
+form{
+    background-color: purple;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+}
+#button{
+   color: blue;
+   fill:currentColor;
+   width: fit-content;
+   height: fit-content;
+  background-attachment: fixed;
+  background-color: lightblue;
+  font-size: medium;
+  font-style: oblique;
+}
+
+
+

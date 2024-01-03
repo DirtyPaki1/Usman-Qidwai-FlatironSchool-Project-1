@@ -1,4 +1,4 @@
-let characters = []; // Initialize characters as an empty array
+let characters = []; 
 
 document.addEventListener('DOMContentLoaded', () => {
  fetch('http://localhost:3000/characters')
@@ -24,13 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
         event.preventDefault()
       
         console.log(characters)
-        //Step 1
-        //Capture user input-this will be a characters name.
+        
         const userInput = document.querySelector('#mySearch').value                
          console.log(userInput)  
       
-        //Step 2
-         //Access the characters array and iterate through it using the find method.
+     
     const narutoCharacters = characters.find(character=>character.name=== userInput)
      console.log(narutoCharacters)
  })
@@ -40,10 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-    //     to check each objects name attribute and see if it matches the array of the user input.  
-    //     Step 4
-
-    //     Display character details
+    
  
     form.addEventListener('submit',(event)=>{
         event.preventDefault()
